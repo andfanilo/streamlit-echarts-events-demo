@@ -60,7 +60,10 @@ if __name__ == "__main__":
     main()
     with st.sidebar:
         st.markdown("---")
-        st.markdown('<a href="https://github.com/andfanilo/streamlit-echarts-events-demo">Source code</a>')
+        st.markdown(
+            '<h6><a href="https://github.com/andfanilo/streamlit-echarts-events-demo">Source code</a></h6>',
+            unsafe_allow_html=True,
+        )
         st.markdown(
             '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://twitter.com/andfanilo">@andfanilo</a></h6>',
             unsafe_allow_html=True,
