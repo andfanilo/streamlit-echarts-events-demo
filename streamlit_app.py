@@ -27,7 +27,7 @@ def main():
     )
 
     if clicked_label is None:
-        st.stop()
+        return
 
     filtered_df = df[clicked_label].sort_index()
     line_options = {
